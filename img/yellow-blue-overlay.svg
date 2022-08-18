@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="348" viewBox="0 0 1366 348">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_63" data-name="Rectangle 63" width="1366" height="348" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="yellow_blue_overlay" data-name="yellow blue overlay" clip-path="url(#clip-path)">
+    <g id="Layer_1-2" transform="translate(1416.229 272.967) rotate(-180)" style="mix-blend-mode: multiply;isolation: isolate">
+      <g id="Group_505" data-name="Group 505">
+        <path id="Path_705" data-name="Path 705" d="M1010.534,273.206,568.776,49.19C314.294-94.4,0,89.513,0,435.617v1069.45l399.2-284.276V687.41Z" transform="translate(0 1.438)" fill="#4299d4"/>
+        <path id="Path_706" data-name="Path 706" d="M629.159,274.643h0V779.8L17.82,1222.229h0l448.031,199.15c182.8,103.943,415.325,39.875,519.268-142.922a381.315,381.315,0,0,0,49.732-189.965V0Z" transform="translate(381.376)" fill="#f0b11d"/>
+        <path id="Path_707" data-name="Path 707" d="M629.159,12.26h0L17.82,426.465V959.846L629.159,517.415Z" transform="translate(381.376 262.383)" fill="#00ad69"/>
+        <path id="Path_708" data-name="Path 708" d="M629.159,12.26h0L17.82,426.465V959.846L629.159,517.415Z" transform="translate(381.376 262.383)" fill="#006b3b"/>
+      </g>
+    </g>
+  </g>
+</svg>

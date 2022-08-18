@@ -1,0 +1,116 @@
+// Fonts 
+@import url("https://use.typekit.net/kws6grx.css");
+
+// General 
+
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+p {
+    font-family: museo-sans, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+// Nav Bars
+
+.clear-nav {
+
+    background-color: transparent;
+    z-index: 100;
+
+    .nav-link {
+        font-family: museo-sans, sans-serif;
+        font-weight: 900;
+        color: $nc-white;
+    }
+
+}
+
+// Headers 
+.banner-h {
+    font-size: 4.375em;
+}
+
+.page-header {
+    font-size: 2.500em;
+}
+
+.page-header-bigger {
+    font-size: 3.75em;
+}
+
+.sub-page-h {
+    font-size: 1.500em;
+    font-weight: 100;
+    color: $nc-blue;
+}
+
+//Links 
+
+.section-link {
+    color: $nc-blue;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+//Lottie player 
+lottie-player {
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+.left-anima {
+    position: absolute;
+    left: -83px;
+    top: -244px;
+}
+
+.left-anima-full {
+    position: absolute;
+    left: -83px;
+    top: -244px;
+}
+
+.right-anima {
+    position: absolute;
+    right: -83px;
+    top: -244px;
+}
+
+
+//Footer 
+
+.footer {
+    background-color: $nc-white;
+    padding: 65.5px;
+
+    p img {
+        display: inline;
+        margin: 0 5px 0 0 ;
+        top: 10px;
+        position: relative;
+    }
+
+    h4 {
+        font-size: 18px;
+        color: $nc-blue;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    .nav-link {
+        color: $nc-black;
+        font-weight: 900;
+        padding: 0.5rem 0;
+    }
+
+    .social-nav {
+
+        .nav-link {
+            margin-right: 22px;
+        }
+    }
+}

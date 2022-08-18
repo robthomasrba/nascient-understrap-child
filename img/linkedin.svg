@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="28" height="28" transform="translate(1161 6485)" fill="#f2b200"/>
+    </clipPath>
+  </defs>
+  <g id="linkedin" transform="translate(-1161 -6485)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1161 6485)">
+      <g id="Color">
+        <path id="_10.Linkedin" data-name="10.Linkedin" d="M14,0A14,14,0,1,0,28,14,14,14,0,0,0,14,0ZM9.929,21.368H6.875V11.53H9.929ZM8.4,10.187A1.778,1.778,0,1,1,10.17,8.4,1.778,1.778,0,0,1,8.4,10.187ZM21.368,21.368H18.316V16.579c0-1.142-.022-2.607-1.588-2.607s-1.842,1.242-1.842,2.524v4.872H11.845V11.53h2.931v1.341h.042a3.208,3.208,0,0,1,2.89-1.59c3.091,0,3.66,2.037,3.66,4.683Z" fill="#f2b200"/>
+      </g>
+    </g>
+  </g>
+</svg>

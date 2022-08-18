@@ -1,0 +1,84 @@
+//Full Banner
+.full-banner {
+    height: 80vh;
+    position: relative;
+    margin-top: -60px;
+
+    background: url(../img/happy-colleagues.jpg) no-repeat center center; 
+    background-size: cover;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: .2;
+        background: $nc-black;
+      }
+
+      h1 {
+        color: $nc-white;
+      }
+
+      p {
+        width: 50%;
+        color: $nc-white;
+      }
+
+      .banner-shape {
+        position: absolute;
+        top: 0;
+        opacity: .7;
+        right: 0;
+        width: 100%;
+      }
+}
+
+
+// Testimonials 
+
+.testimonials-holder {
+  background-color: $nc-green;
+  padding: 120px 0;
+}
+
+//What we do 
+
+.what-we-do {
+
+  padding: 120px 0;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 46px;
+      font-size: 24px;
+      font-weight: bold;
+      color: $nc-black;
+
+      img {
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+//How We Work
+
+.how-we-work {
+  background-color: $nc-blue;
+  padding: 120px 0;
+}
+
+//Dark Background 
+
+.dark-bg {
+  background-color: $nc-purple;
+  padding: 120px 0;
+}

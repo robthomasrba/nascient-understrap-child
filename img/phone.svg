@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="11" viewBox="0 0 11 11">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="11" height="11" transform="translate(130 2998)" fill="#f2b200"/>
+    </clipPath>
+  </defs>
+  <g id="phone" transform="translate(-130 -2998)" clip-path="url(#clip-path)">
+    <g id="call" transform="translate(130 2998)">
+      <g id="Group_19" data-name="Group 19">
+        <path id="Path_27" data-name="Path 27" d="M10.117,7.22a6.245,6.245,0,0,1-1.961-.312.9.9,0,0,0-.872.184l-1.237.934A6.835,6.835,0,0,1,2.974,4.953l.906-1.2a.889.889,0,0,0,.219-.9A6.255,6.255,0,0,1,3.785.883.884.884,0,0,0,2.9,0H.883A.884.884,0,0,0,0,.883,10.129,10.129,0,0,0,10.117,11,.884.884,0,0,0,11,10.117V8.1A.884.884,0,0,0,10.117,7.22Z" fill="#f2b200"/>
+      </g>
+    </g>
+  </g>
+</svg>
