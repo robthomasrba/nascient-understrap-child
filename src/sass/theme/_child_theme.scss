@@ -28,7 +28,7 @@ p {
     }
 }
 
-.page-template-workforce-page {
+.page-template-workforce-page, .page-template-leadership-consulting-page, .page-template-infrastructure-management-page, .page-template-team-page, .page-template-contact-page {
     .img-logo {
         display: none;
     }
@@ -53,6 +53,17 @@ p {
     }
 
 }
+
+.custom-select{
+    border: 1px solid #FFFFFF !important;
+    font-size: 12px!important;
+    border-radius: 30px!important;
+    width: 130px!important;
+    height: 36px;
+    background-color: $nc-yellow!important;
+    color: #FFFFFF!important;
+    background: $nc-yellow url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'><path fill='%23ffffff' d='M2 0L0 2h4zm0 5L0 3h4z'/></svg>") right .75rem center/8px 10px no-repeat!important;
+   }
 
 // Headers 
 .banner-h {

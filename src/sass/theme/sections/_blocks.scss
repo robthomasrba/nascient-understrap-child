@@ -69,6 +69,47 @@
   }
 }
 
+.sub-banner-no-img {
+
+  h3 {
+
+    lottie-player {
+      display: inline-block;
+      position: relative;
+      top: 7px;
+    }
+
+    ul  {
+      display: inline-block;
+
+      li {
+        display: inline-block;
+
+        .nav-link {
+          font-size: 1rem;
+          color: $nc-blue;
+        }
+      }
+    }
+  }
+
+  .left-anima {
+    position: absolute;
+    left: -83px;
+    top: 200px;
+}
+}
+
+.img-left {
+  
+  .right-anima {
+    position: absolute;
+    right: -115px;
+    top: 20px;
+}
+
+}
+
 // Testimonials 
 
 .testimonials-holder {

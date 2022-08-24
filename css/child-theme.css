@@ -15620,10 +15620,10 @@ p {
   display: none;
 }
 
-.page-template-workforce-page .img-logo {
+.page-template-workforce-page .img-logo, .page-template-leadership-consulting-page .img-logo, .page-template-infrastructure-management-page .img-logo, .page-template-team-page .img-logo, .page-template-contact-page .img-logo {
   display: none;
 }
-.page-template-workforce-page .clear-nav .nav-link {
+.page-template-workforce-page .clear-nav .nav-link, .page-template-leadership-consulting-page .clear-nav .nav-link, .page-template-infrastructure-management-page .clear-nav .nav-link, .page-template-team-page .clear-nav .nav-link, .page-template-contact-page .clear-nav .nav-link {
   color: #09002A;
 }
 
@@ -15635,6 +15635,17 @@ p {
   font-family: museo-sans, sans-serif;
   font-weight: 900;
   color: #ffffff;
+}
+
+.custom-select {
+  border: 1px solid #FFFFFF !important;
+  font-size: 12px !important;
+  border-radius: 30px !important;
+  width: 130px !important;
+  height: 36px;
+  background-color: #F2B200 !important;
+  color: #FFFFFF !important;
+  background: #F2B200 url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'><path fill='%23ffffff' d='M2 0L0 2h4zm0 5L0 3h4z'/></svg>") right 0.75rem center/8px 10px no-repeat !important;
 }
 
 .banner-h {
@@ -16142,6 +16153,33 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .sub-banner-w-img p {
   color: #ffffff;
+}
+
+.sub-banner-no-img h3 lottie-player, .sub-banner-no-img .h3 lottie-player {
+  display: inline-block;
+  position: relative;
+  top: 7px;
+}
+.sub-banner-no-img h3 ul, .sub-banner-no-img .h3 ul {
+  display: inline-block;
+}
+.sub-banner-no-img h3 ul li, .sub-banner-no-img .h3 ul li {
+  display: inline-block;
+}
+.sub-banner-no-img h3 ul li .nav-link, .sub-banner-no-img .h3 ul li .nav-link {
+  font-size: 1rem;
+  color: #12A0F3;
+}
+.sub-banner-no-img .left-anima {
+  position: absolute;
+  left: -83px;
+  top: 200px;
+}
+
+.img-left .right-anima {
+  position: absolute;
+  right: -115px;
+  top: 20px;
 }
 
 .testimonials-holder {

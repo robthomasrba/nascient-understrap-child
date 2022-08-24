@@ -1,5 +1,6 @@
 <?php if ( have_rows( 'section_with_left_image' ) ) : ?>
-<div class=" position-relative">
+<div class="img-left position-relative">
+
     <div class="container py-5 ">
 	<?php while ( have_rows( 'section_with_left_image' ) ) : the_row(); ?>
 		<div class="row">

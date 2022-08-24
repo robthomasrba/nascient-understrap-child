@@ -3,10 +3,6 @@
 
 	<div class=" position-relative">
 
-	<lottie-player class="left-anima" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/Left Pattern 1.json' ); ?>" background="transparent" speed="1" style="width: 427.26px; height: 599.97px;" loop autoplay></lottie-player>
-
-	<lottie-player class="right-anima" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/Right Pattern 1.json' ); ?>" background="transparent" speed="1" style="width: 427.26px; height: 599.97px;" loop autoplay></lottie-player>
-
     <div class="container mt-5 py-5">
 
 

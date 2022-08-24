@@ -186,6 +186,27 @@
                 "operator": "==",
                 "value": "page-templates\/about-page.php"
             }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/workforce-page.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/leadership-consulting-page.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/infrastructure-management-page.php"
+            }
         ]
     ],
     "menu_order": 0,
@@ -197,5 +218,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1661279880
+    "modified": 1661372190
 }

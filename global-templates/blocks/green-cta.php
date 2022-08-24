@@ -27,11 +27,13 @@
 					<img class="img-fluid mb-4" src="<?php echo esc_url( $section_content_image['url'] ); ?>" alt="<?php echo esc_attr( $section_content_image['alt'] ); ?>" />
 				<?php endif; ?>
                 <h3><?php the_sub_field( 'section_content_title' ); ?></h3>
+                <p>
                 <?php the_sub_field( 'section_content_text' ); ?>
+                </p>
 
 				<?php $section_content_button_link = get_sub_field( 'section_content_button_link' ); ?>
 				<?php if ( $section_content_button_link ) : ?>
-					<a class="btn btn-primary text-white text-uppercase" href="<?php echo esc_url( $section_content_button_link); ?>"> <?php the_sub_field( 'section_content_button_label_' ); ?></a>
+					<p class="mt-4"><a class="btn btn-primary text-white text-uppercase" href="<?php echo esc_url( $section_content_button_link); ?>"> <?php the_sub_field( 'section_content_button_label_' ); ?></a></p>
 				<?php endif; ?>
             </div>
 			

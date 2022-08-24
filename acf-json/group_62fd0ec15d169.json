@@ -127,6 +127,20 @@
                 "operator": "==",
                 "value": "page-templates\/home-page.php"
             }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/workforce-page.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/team-page.php"
+            }
         ]
     ],
     "menu_order": 0,
@@ -138,5 +152,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1660752196
+    "modified": 1661374126
 }
