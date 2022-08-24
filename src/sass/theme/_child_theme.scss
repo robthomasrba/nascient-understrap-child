@@ -8,10 +8,35 @@ html, body {
     height: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: titillium-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 p {
     font-family: museo-sans, sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+//Pages 
+
+.home {
+    .non-img-logo {
+        display: none;
+    }
+}
+
+.page-template-workforce-page {
+    .img-logo {
+        display: none;
+    }
+
+    .clear-nav .nav-link {
+        color: $nc-black;
+    }
+
 }
 
 // Nav Bars
@@ -48,6 +73,12 @@ p {
     color: $nc-blue;
 }
 
+.short-text {
+    font-family: museo-sans, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
 //Links 
 
 .section-link {
@@ -76,10 +107,9 @@ lottie-player {
 
 .right-anima {
     position: absolute;
-    right: -83px;
+    right: -115px;
     top: -244px;
 }
-
 
 //Footer 
 

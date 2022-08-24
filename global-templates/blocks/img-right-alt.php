@@ -1,6 +1,6 @@
-<?php if ( have_rows( 'section_with_right_image' ) ) : ?>
+<?php if ( have_rows( 'section_with_right_image_alt' ) ) : ?>
     <div class="container py-5">
-	<?php while ( have_rows( 'section_with_right_image' ) ) : the_row(); ?>
+	<?php while ( have_rows( 'section_with_right_image_alt' ) ) : the_row(); ?>
 
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-end">

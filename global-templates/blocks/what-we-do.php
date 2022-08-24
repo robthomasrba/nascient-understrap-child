@@ -8,7 +8,7 @@
             <?php the_sub_field( 'section_content' ); ?>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-4">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <?php if ( have_rows( 'left_list_section' ) ) : ?>
@@ -44,6 +44,7 @@
 		
 		<div class="row mt-5">
             <div class="col text-center">
+            <p class="short-text mb-5">… and more!</p>
             <?php $section_button_link = get_sub_field( 'section_button_link' ); ?>
             <?php if ( $section_button_link ) : ?>
                 <a class="btn btn-secondary text-uppercase text-white" href="<?php echo esc_url( $section_button_link); ?>"><?php the_sub_field( 'section_button_label' ); ?>

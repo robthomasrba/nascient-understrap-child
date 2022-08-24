@@ -12,6 +12,10 @@
             <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-end">
           
             <div>
+
+                
+                <p class="sub-page-h"><?php the_sub_field( 'section_sub_title' ); ?></p>
+
                 <h2 class="page-header-bigger"><?php the_sub_field( 'section_title' ); ?></h2>
                 <?php the_sub_field( 'section_content' ); ?>
                 

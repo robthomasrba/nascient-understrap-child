@@ -21,7 +21,7 @@
 		<?php if ( have_rows( 'columns' ) ) : ?>
 			<div class="row">
 			<?php while ( have_rows( 'columns' ) ) : the_row(); ?>
-				<div class="col-sm-12 col-md-12  col-lg-4 text-center p-5">
+				<div class="col-sm-12 col-md-12  col-lg-4 text-center p-3">
 				<?php the_sub_field( 'column_icon' ); ?>
 				<h3><?php the_sub_field( 'column_title' ); ?></h3>
 				<p><?php the_sub_field( 'column_content' ); ?></p>
@@ -37,7 +37,7 @@
 			<?php // No rows found ?>
 		<?php endif; ?>
 
-		<div class="row">
+		<div class="row mt-5">
 			<div class="col text-center">
 				
 				<?php $section_button_link = get_sub_field( 'section_button_link' ); ?>

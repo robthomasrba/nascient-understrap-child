@@ -1,11 +1,11 @@
 {
-    "key": "group_62fd2ced51142",
-    "title": "Section with Right Image",
+    "key": "group_6304eea69e34e",
+    "title": "Sub Banner with Image",
     "fields": [
         {
-            "key": "field_62fd2ced571d4",
-            "label": "Section with Right Image",
-            "name": "section_with_right_image",
+            "key": "field_6304eec444d63",
+            "label": "Sub Banner with Image",
+            "name": "sub_banner_with_image",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -18,9 +18,9 @@
             "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_62fd2ced598a3",
-                    "label": "Section Image",
-                    "name": "section_image",
+                    "key": "field_6304eedb44d64",
+                    "label": "Section Background Image",
+                    "name": "section_background_image",
                     "type": "image",
                     "instructions": "",
                     "required": 0,
@@ -42,26 +42,7 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_630446f01b68f",
-                    "label": "Section Sub Title",
-                    "name": "section_sub_title",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_62fd2ced598c7",
+                    "key": "field_6304eef444d65",
                     "label": "Section Title",
                     "name": "section_title",
                     "type": "text",
@@ -80,7 +61,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_62fd2ced598ce",
+                    "key": "field_6304ef0144d66",
                     "label": "Section Content",
                     "name": "section_content",
                     "type": "wysiwyg",
@@ -97,56 +78,11 @@
                     "toolbar": "full",
                     "media_upload": 1,
                     "delay": 0
-                },
-                {
-                    "key": "field_62fd2ced598da",
-                    "label": "Section Button Label",
-                    "name": "section_button_label",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_62fd2ced598e2",
-                    "label": "Section Button Link",
-                    "name": "section_button_link",
-                    "type": "page_link",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "post_type": "",
-                    "taxonomy": "",
-                    "allow_null": 0,
-                    "allow_archives": 1,
-                    "multiple": 0
                 }
             ]
         }
     ],
     "location": [
-        [
-            {
-                "param": "page_template",
-                "operator": "==",
-                "value": "page-templates\/home-page.php"
-            }
-        ],
         [
             {
                 "param": "page_template",
@@ -164,5 +100,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1661273895
+    "modified": 1661273464
 }

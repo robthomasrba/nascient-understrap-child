@@ -15604,10 +15604,27 @@ html, body {
   height: 100%;
 }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: titillium-web, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 p {
   font-family: museo-sans, sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+.home .non-img-logo {
+  display: none;
+}
+
+.page-template-workforce-page .img-logo {
+  display: none;
+}
+.page-template-workforce-page .clear-nav .nav-link {
+  color: #09002A;
 }
 
 .clear-nav {
@@ -15638,6 +15655,12 @@ p {
   color: #12A0F3;
 }
 
+.short-text {
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
 .section-link {
   color: #12A0F3;
   text-decoration: none;
@@ -15663,7 +15686,7 @@ lottie-player {
 
 .right-anima {
   position: absolute;
-  right: -83px;
+  right: -115px;
   top: -244px;
 }
 
@@ -16091,6 +16114,36 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   width: 100%;
 }
 
+.sub-banner-w-img {
+  height: 50vh;
+  position: relative;
+  margin-top: -60px;
+}
+.sub-banner-w-img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  background: #09002A;
+}
+.sub-banner-w-img .banner-shape {
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
+  right: 0;
+  width: 100%;
+}
+.sub-banner-w-img h1, .sub-banner-w-img .h1 {
+  font-size: 4.375;
+  color: #ffffff;
+}
+.sub-banner-w-img p {
+  color: #ffffff;
+}
+
 .testimonials-holder {
   background-color: #006A3B;
   padding: 120px 0;
@@ -16120,9 +16173,101 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   padding: 120px 0;
 }
 
+.work-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  width: 100%;
+}
+.work-scroll .work-box img {
+  width: 333px;
+  height: 269px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.work-scroll .work-box p {
+  color: white;
+}
+.work-scroll .work-box h2, .work-scroll .work-box .h2 {
+  font-family: titillium-web, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 130px;
+  color: white;
+}
+.work-scroll .work-box h3, .work-scroll .work-box .h3 {
+  font-size: 24px;
+  color: white;
+  margin: 0 0 20px 0;
+}
+
 .dark-bg {
   background-color: #09002A;
   padding: 120px 0;
+}
+
+.green-cta {
+  background-color: #006A3B;
+  padding: 120px 0;
+}
+.green-cta h2, .green-cta .h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+.green-cta h3, .green-cta .h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.green-cta p {
+  color: #ffffff;
+}
+.green-cta .sub-page-h {
+  color: #12A0F3;
+}
+
+.our-core-values h2, .our-core-values .h2 {
+  color: #ffffff;
+}
+.our-core-values p {
+  color: #ffffff;
+}
+
+.core-block {
+  position: relative;
+}
+.core-block h3, .core-block .h3 {
+  font-size: 2.75em;
+  color: #ffffff;
+}
+.core-block p {
+  color: #ffffff;
+}
+.core-block .core-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.core-block .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+.core-block .overlay-blue {
+  background-color: #12A0F3;
+}
+.core-block .overlay-green {
+  background-color: #006A3B;
+}
+.core-block .overlay-yellow {
+  background-color: #F2B200;
+}
+.core-block:hover .overlay {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=child-theme.css.map */

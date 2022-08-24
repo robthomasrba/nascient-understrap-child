@@ -36,6 +36,38 @@
       }
 }
 
+.sub-banner-w-img {
+  height: 50vh;
+  position: relative;
+  margin-top: -60px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .2;
+    background: $nc-black;
+  }
+
+  .banner-shape {
+    position: absolute;
+    top: 0;
+    opacity: .7;
+    right: 0;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4.375;
+    color: $nc-white;
+  }
+  p {
+    color: $nc-white;
+  }
+}
 
 // Testimonials 
 
@@ -76,9 +108,122 @@
   padding: 120px 0;
 }
 
+.work-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;  
+  width:100%;
+
+    .work-box {
+
+      img {
+        width: 333px;
+        height: 269px;
+        object-fit: contain;
+      }
+
+      p {
+        color: white;
+      }
+
+      h2 {
+        font-family: titillium-web, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 130px;
+        color: white;
+      }
+
+      h3 {
+        font-size: 24px;
+        color: white;
+        margin: 0 0 20px 0;
+      }
+
+    }
+}
+
 //Dark Background 
 
 .dark-bg {
   background-color: $nc-purple;
   padding: 120px 0;
+}
+
+.green-cta {
+  background-color: $nc-green;
+  padding: 120px 0;
+
+  h2 {
+    color: $nc-white;
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    color: $nc-white;
+    font-size: 1.5rem;
+  }
+
+  p {
+    color: $nc-white;
+  }
+
+  .sub-page-h {
+    color: $nc-blue;
+  }
+}
+
+// Our Core Values
+
+.our-core-values {
+
+
+  h2 {
+    color: $nc-white;
+  }
+
+  p {
+    color: $nc-white;
+  }
+}
+
+.core-block {
+  position: relative;
+
+  h3 {
+    font-size: 2.75em;
+    color: $nc-white
+  }
+
+  p {
+    color: $nc-white;
+  }
+
+  .core-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 10px;
+  }
+  .overlay-blue {
+    background-color: $nc-blue;
+  }
+  .overlay-green {
+    background-color: $nc-green;
+  }
+  .overlay-yellow {
+    background-color: $nc-yellow;
+  }
+  &:hover .overlay {
+    opacity: 1;
+  }
 }
