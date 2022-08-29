@@ -87,3 +87,123 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+
+
+// People CPT
+function cptui_register_my_cpts_people() {
+
+	/**
+	 * Post Type: People.
+	 */
+
+	$labels = [
+		"name" => __( "People", "understrap-child" ),
+		"singular_name" => __( "Person", "understrap-child" ),
+		"menu_name" => __( "People", "understrap-child" ),
+		"all_items" => __( "People", "understrap-child" ),
+		"add_new" => __( "Person", "understrap-child" ),
+		"add_new_item" => __( "Person", "understrap-child" ),
+		"edit_item" => __( "Person", "understrap-child" ),
+		"new_item" => __( "Person", "understrap-child" ),
+		"view_item" => __( "Person", "understrap-child" ),
+		"view_items" => __( "People", "understrap-child" ),
+		"search_items" => __( "People", "understrap-child" ),
+		"not_found" => __( "People", "understrap-child" ),
+		"not_found_in_trash" => __( "People", "understrap-child" ),
+		"parent" => __( "Person", "understrap-child" ),
+		"featured_image" => __( "Add Image", "understrap-child" ),
+		"set_featured_image" => __( "Person", "understrap-child" ),
+		"remove_featured_image" => __( "Person", "understrap-child" ),
+		"use_featured_image" => __( "Person", "understrap-child" ),
+		"archives" => __( "People", "understrap-child" ),
+		"insert_into_item" => __( "Person", "understrap-child" ),
+		"uploaded_to_this_item" => __( "Person", "understrap-child" ),
+		"filter_items_list" => __( "People", "understrap-child" ),
+		"items_list_navigation" => __( "People", "understrap-child" ),
+		"items_list" => __( "People", "understrap-child" ),
+		"attributes" => __( "People", "understrap-child" ),
+		"name_admin_bar" => __( "Person", "understrap-child" ),
+		"item_published" => __( "Person", "understrap-child" ),
+		"item_published_privately" => __( "Person", "understrap-child" ),
+		"item_reverted_to_draft" => __( "Person", "understrap-child" ),
+		"item_scheduled" => __( "Person", "understrap-child" ),
+		"item_updated" => __( "Person", "understrap-child" ),
+		"parent_item_colon" => __( "Person", "understrap-child" ),
+	];
+
+	$args = [
+		"label" => __( "People", "understrap-child" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => true,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"rest_namespace" => "wp/v2",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"can_export" => true,
+		"rewrite" => [ "slug" => "people", "with_front" => true ],
+		"query_var" => true,
+		"menu_icon" => "dashicons-admin-users",
+		"supports" => [ "title", "thumbnail" ],
+		"show_in_graphql" => false,
+	];
+
+	register_post_type( "people", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_people' );
+
+
+// Jobs CPT
+function cptui_register_my_cpts_jobs() {
+
+	/**
+	 * Post Type: Jobs.
+	 */
+
+	$labels = [
+		"name" => __( "Jobs", "understrap-child" ),
+		"singular_name" => __( "Job", "understrap-child" ),
+	];
+
+	$args = [
+		"label" => __( "Jobs", "understrap-child" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => true,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"rest_namespace" => "wp/v2",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"can_export" => false,
+		"rewrite" => [ "slug" => "jobs", "with_front" => true ],
+		"query_var" => true,
+		"menu_icon" => "dashicons-networking",
+		"supports" => [ "title", "editor" ],
+		"show_in_graphql" => false,
+	];
+
+	register_post_type( "jobs", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_jobs' );

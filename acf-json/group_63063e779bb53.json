@@ -171,6 +171,20 @@
                 "operator": "==",
                 "value": "page-templates\/contact-page.php"
             }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "posts_page"
+            }
+        ],
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "page-templates\/page-careers.php"
+            }
         ]
     ],
     "menu_order": 0,
@@ -182,5 +196,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1661375073
+    "modified": 1661737478
 }

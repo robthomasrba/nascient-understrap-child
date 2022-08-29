@@ -20,6 +20,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	<script src="https://kit.fontawesome.com/3cc536d3cb.js" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>
 
@@ -28,6 +29,9 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
+	<div class="top-shape">
+		<img class="img-fluid" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/top-shape.svg' ); ?>" alt="Yellow and Blue Overlay" width="" />
+	</div>
 	<header id="wrapper-navbar">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>

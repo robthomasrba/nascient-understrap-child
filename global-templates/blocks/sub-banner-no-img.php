@@ -9,7 +9,10 @@
     <div class="row mb-5">
         <div class="col-">
             <h3>
-            <lottie-player class="" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/workforce solutions icon.json' ); ?>" background="transparent" speed="1" style="width: 37.14px; height: 39.84px;" loop autoplay></lottie-player>    
+            <lottie-player class="workforce" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/workforce solutions icon.json' ); ?>" background="transparent" speed="1" style="width: 37.14px; height: 39.84px;" loop autoplay></lottie-player>    
+            <lottie-player class="leadership" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/leadership consulting icon.json' ); ?>" background="transparent" speed="1" style="width: 36.74px; height: 41.3px;" loop autoplay></lottie-player>    
+            <lottie-player class="infrastructure" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/infrastructure management icon.json' ); ?>" background="transparent" speed="1" style="width: 27.99px; height: 49.55px;" loop autoplay></lottie-player>    
+
             <?php the_sub_field( 'section_menu_title' ); ?>
 
            

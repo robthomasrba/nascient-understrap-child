@@ -48,7 +48,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: .2;
+    opacity: .4;
     background: $nc-black;
   }
 
@@ -70,6 +70,7 @@
 }
 
 .sub-banner-no-img {
+  position: relative;
 
   h3 {
 
@@ -267,4 +268,172 @@
   &:hover .overlay {
     opacity: 1;
   }
+}
+
+//Services Tabs 
+
+.services-tabs {
+  padding: 120px 0;
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: $nc-black;
+    background-color: $nc-yellow;
+    text-align: left;
+    font-family: titillium-web, sans-serif;
+    font-weight: 700;
+  }
+  .nav-pills .nav-link {
+    color: $nc-black;
+    text-align: left;
+    font-family: titillium-web, sans-serif;
+    font-weight: 700;
+  }
+  .tab-content {
+    background-color: $nc-blue;
+    padding: 30px;
+    border-radius: 10px;
+
+    h2 {
+      color: $nc-white;
+      font-size: 40px;
+    }
+
+    p {
+      color: $nc-white;
+    }
+  }
+}
+
+// Teams 
+
+.person {
+
+  img {
+    height: 228px;
+    width: 228px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+// Contact Form 
+.contact {
+
+  h2 {
+    font-size: 24px;
+    background-color: $nc-yellow;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    color: $nc-white;
+  }
+
+  ul {
+     li {
+        color: $nc-black;
+        font-family: titillium-web, sans-serif;
+     }
+  }
+  .contact-form {
+    background-color: $nc-blue;
+    border-radius: 10px;
+
+    .fluentform .ff-text-left {
+      text-align: center;
+    } 
+
+    .fluentform .ff-el-form-control {
+      background-clip: padding-box;
+      background-image: none;
+      border: none;
+      border-radius: 0;
+      color: #495057;
+      display: block;
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 0;
+      max-width: 100%;
+      padding: 6px 12px;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      width: 100%;
+    }
+
+    form.fluent_form_1 .ff-btn-submit {
+      background-color: $nc-green;
+      color: $nc-white;
+      text-transform: uppercase;
+    }
+  }
+}
+
+// Post
+
+.featured-post {
+
+  img {
+    height:393px;
+    width: 624px;
+  }
+
+  h2 {
+    font-size: 40px;
+
+    span a {
+      color: $nc-blue;
+      font-size: 18px;
+      display: block;
+    }
+
+     a {
+      color: $nc-black;
+      text-decoration: none;
+     }
+  }
+}
+
+.small-post {
+
+  h3 {
+    font-size: 24px;
+    height: 80px;
+
+    span a {
+      color: $nc-blue;
+      font-size: 18px;
+      display: block;
+    }
+
+    a {
+      color: $nc-black;
+      text-decoration: none;
+    }
+  }
+}
+
+//Careers
+
+.careers {
+
+  .table>thead, .wp-block-table table>thead {
+    vertical-align: bottom;
+    border-bottom: 2px solid $nc-yellow;
+    text-transform: uppercase;
+  }
+    
+    h3 {
+      font-size: 24px !important;
+
+      a {
+        color: $nc-blue !important;
+        text-decoration: none !important;
+      }
+    }
+
+  .location {
+    color: $nc-blue;
+    text-decoration: none;
+    font-size: 24px !important;
+    font-weight: 700;
+  }
+
 }

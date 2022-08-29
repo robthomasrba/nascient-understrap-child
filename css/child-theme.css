@@ -12541,8 +12541,8 @@ figure.woocommerce-product-gallery__wrapper {
  * -------------------------- */
 @font-face {
   font-family: "FontAwesome";
-  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("../webfonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../webfonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../webfonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../webfonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../webfonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../webfonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -15616,15 +15616,81 @@ p {
   font-style: normal;
 }
 
+a {
+  color: #12A0F3;
+  text-decoration: none;
+}
+
+.btn, .wpcf7 input[type=submit], .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-info a.button {
+  border-radius: 0;
+}
+
+.btn-secondary {
+  position: relative;
+}
+.btn-secondary:hover {
+  box-shadow: 4px 4px #12A0F3;
+}
+.btn-secondary:hover:before {
+  transition: 0.5s;
+}
+
+.btn-primary {
+  position: relative;
+}
+.btn-primary:hover {
+  box-shadow: 4px 4px #F2B200;
+}
+.btn-primary:hover:before {
+  transition: 0.5s;
+}
+
 .home .non-img-logo {
   display: none;
 }
-
-.page-template-workforce-page .img-logo, .page-template-leadership-consulting-page .img-logo, .page-template-infrastructure-management-page .img-logo, .page-template-team-page .img-logo, .page-template-contact-page .img-logo {
+.home .top-shape {
   display: none;
 }
-.page-template-workforce-page .clear-nav .nav-link, .page-template-leadership-consulting-page .clear-nav .nav-link, .page-template-infrastructure-management-page .clear-nav .nav-link, .page-template-team-page .clear-nav .nav-link, .page-template-contact-page .clear-nav .nav-link {
+
+.page-template-workforce-page .img-logo, .page-template-leadership-consulting-page .img-logo, .page-template-infrastructure-management-page .img-logo, .page-template-team-page .img-logo, .page-template-contact-page .img-logo, .blog .img-logo, .page-template-page-careers .img-logo {
+  display: none;
+}
+.page-template-workforce-page .top-shape, .page-template-leadership-consulting-page .top-shape, .page-template-infrastructure-management-page .top-shape, .page-template-team-page .top-shape, .page-template-contact-page .top-shape, .blog .top-shape, .page-template-page-careers .top-shape {
+  position: relative;
+  padding-bottom: 27px;
+}
+.page-template-workforce-page .top-shape img, .page-template-leadership-consulting-page .top-shape img, .page-template-infrastructure-management-page .top-shape img, .page-template-team-page .top-shape img, .page-template-contact-page .top-shape img, .blog .top-shape img, .page-template-page-careers .top-shape img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.page-template-workforce-page .clear-nav .nav-link, .page-template-leadership-consulting-page .clear-nav .nav-link, .page-template-infrastructure-management-page .clear-nav .nav-link, .page-template-team-page .clear-nav .nav-link, .page-template-contact-page .clear-nav .nav-link, .blog .clear-nav .nav-link, .page-template-page-careers .clear-nav .nav-link {
   color: #09002A;
+}
+
+.page-template-about-page .non-img-logo {
+  display: none;
+}
+.page-template-about-page .top-shape {
+  display: none;
+}
+
+.page-template-workforce-page .leadership {
+  display: none;
+}
+.page-template-workforce-page .infrastructure {
+  display: none;
+}
+
+.page-template-leadership-consulting-page .workforce {
+  display: none;
+}
+.page-template-leadership-consulting-page .infrastructure {
+  display: none;
+}
+
+.page-template-infrastructure-management-page .workforce, .page-template-infrastructure-management-page .leadership {
+  display: none;
 }
 
 .clear-nav {
@@ -15635,6 +15701,21 @@ p {
   font-family: museo-sans, sans-serif;
   font-weight: 900;
   color: #ffffff;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 800;
+  color: #09002A;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  text-align: center;
 }
 
 .custom-select {
@@ -16137,7 +16218,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   right: 0;
   bottom: 0;
   left: 0;
-  opacity: 0.2;
+  opacity: 0.4;
   background: #09002A;
 }
 .sub-banner-w-img .banner-shape {
@@ -16155,6 +16236,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #ffffff;
 }
 
+.sub-banner-no-img {
+  position: relative;
+}
 .sub-banner-no-img h3 lottie-player, .sub-banner-no-img .h3 lottie-player {
   display: inline-block;
   position: relative;
@@ -16306,6 +16390,133 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .core-block:hover .overlay {
   opacity: 1;
+}
+
+.services-tabs {
+  padding: 120px 0;
+}
+.services-tabs .nav-pills .nav-link.active, .services-tabs .nav-pills .show > .nav-link {
+  color: #09002A;
+  background-color: #F2B200;
+  text-align: left;
+  font-family: titillium-web, sans-serif;
+  font-weight: 700;
+}
+.services-tabs .nav-pills .nav-link {
+  color: #09002A;
+  text-align: left;
+  font-family: titillium-web, sans-serif;
+  font-weight: 700;
+}
+.services-tabs .tab-content {
+  background-color: #12A0F3;
+  padding: 30px;
+  border-radius: 10px;
+}
+.services-tabs .tab-content h2, .services-tabs .tab-content .h2 {
+  color: #ffffff;
+  font-size: 40px;
+}
+.services-tabs .tab-content p {
+  color: #ffffff;
+}
+
+.person img {
+  height: 228px;
+  width: 228px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.contact h2, .contact .h2 {
+  font-size: 24px;
+  background-color: #F2B200;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.contact ul li {
+  color: #09002A;
+  font-family: titillium-web, sans-serif;
+}
+.contact .contact-form {
+  background-color: #12A0F3;
+  border-radius: 10px;
+}
+.contact .contact-form .fluentform .ff-text-left {
+  text-align: center;
+}
+.contact .contact-form .fluentform .ff-el-form-control {
+  background-clip: padding-box;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  color: #495057;
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  max-width: 100%;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+}
+.contact .contact-form form.fluent_form_1 .ff-btn-submit {
+  background-color: #006A3B;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.featured-post img {
+  height: 393px;
+  width: 624px;
+}
+.featured-post h2, .featured-post .h2 {
+  font-size: 40px;
+}
+.featured-post h2 span a, .featured-post .h2 span a {
+  color: #12A0F3;
+  font-size: 18px;
+  display: block;
+}
+.featured-post h2 a, .featured-post .h2 a {
+  color: #09002A;
+  text-decoration: none;
+}
+
+.small-post h3, .small-post .h3 {
+  font-size: 24px;
+  height: 80px;
+}
+.small-post h3 span a, .small-post .h3 span a {
+  color: #12A0F3;
+  font-size: 18px;
+  display: block;
+}
+.small-post h3 a, .small-post .h3 a {
+  color: #09002A;
+  text-decoration: none;
+}
+
+.careers .table > thead, .wp-block-table .careers table > thead, .careers .wp-block-table table > thead {
+  vertical-align: bottom;
+  border-bottom: 2px solid #F2B200;
+  text-transform: uppercase;
+}
+.careers h3, .careers .h3 {
+  font-size: 24px !important;
+}
+.careers h3 a, .careers .h3 a {
+  color: #12A0F3 !important;
+  text-decoration: none !important;
+}
+.careers .location {
+  color: #12A0F3;
+  text-decoration: none;
+  font-size: 24px !important;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=child-theme.css.map */
