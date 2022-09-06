@@ -1,8 +1,8 @@
 <?php if ( have_rows( 'three_column_section' ) ) : ?>
 
 
-	<div class=" position-relative">
-
+	<div id="<?php the_sub_field( 'section_id' ); ?>" class=" position-relative">
+	<lottie-player class="left-anima" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/Left Pattern 1.json' ); ?>" background="transparent" speed="1" style="width: 427.26px; height: 599.97px;" loop autoplay></lottie-player>
     <div class="container mt-5 py-5">
 
 
@@ -18,7 +18,7 @@
 			<div class="row">
 			<?php while ( have_rows( 'columns' ) ) : the_row(); ?>
 				<div class="col-sm-12 col-md-12  col-lg-4 text-center p-3">
-				<?php the_sub_field( 'column_icon' ); ?>
+				<lottie-player class="workforce" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/workforce solutions icon.json' ); ?>" background="transparent" speed="1" style="width: 37.14px; height: 39.84px;" loop autoplay></lottie-player>    
 				<h3><?php the_sub_field( 'column_title' ); ?></h3>
 				<p><?php the_sub_field( 'column_content' ); ?></p>
 				

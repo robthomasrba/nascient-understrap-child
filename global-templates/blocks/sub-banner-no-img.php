@@ -12,6 +12,9 @@
             <lottie-player class="workforce" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/workforce solutions icon.json' ); ?>" background="transparent" speed="1" style="width: 37.14px; height: 39.84px;" loop autoplay></lottie-player>    
             <lottie-player class="leadership" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/leadership consulting icon.json' ); ?>" background="transparent" speed="1" style="width: 36.74px; height: 41.3px;" loop autoplay></lottie-player>    
             <lottie-player class="infrastructure" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/infrastructure management icon.json' ); ?>" background="transparent" speed="1" style="width: 27.99px; height: 49.55px;" loop autoplay></lottie-player>    
+             <lottie-player class="team" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/team icon.json' ); ?>" background="transparent" speed="1" style="width: 37.14px; height: 39.84px;" loop autoplay></lottie-player>    
+             <lottie-player class="contact" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/Contact Icon.json' ); ?>" background="transparent" speed="1" style="width: 37.14px; height: 39.84px;" loop autoplay></lottie-player>    
+             <lottie-player class="careers" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/Careers icon.json' ); ?>" background="transparent" speed="1" style="width: 37.14px; height: 39.84px;" loop autoplay></lottie-player>    
 
             <?php the_sub_field( 'section_menu_title' ); ?>
 

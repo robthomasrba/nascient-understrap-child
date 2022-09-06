@@ -35,10 +35,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<h4>About</h4>
 				<ul class="nav flex-column p-0 m-0">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Humanity</a>
+						<a class="nav-link" href="<?php echo site_url('/about'); ?>">Humanity</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Team</a>
+						<a class="nav-link" href="<?php echo site_url('/team'); ?>">Team</a>
 					</li>
 				</ul>
 			</div>
@@ -46,19 +46,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<h4>Solutions</h4>
 			<ul class="nav flex-column p-0 m-0">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Workforce</a>
+						<a class="nav-link" href="<?php echo site_url('/workforce'); ?>">Workforce</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Leadership &amp; Consulting</a>
+						<a class="nav-link" href="<?php echo site_url('/leadership-consulting'); ?>">Leadership &amp; Consulting</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Infrastructure Management</a>
+						<a class="nav-link" href="<?php echo site_url('/infrastructure-management'); ?>">Infrastructure Management</a>
 					</li>
 				</ul>
 			</div>
 			<div class="col-sm-12 col-md-12 col-lg-3">
-			<h4>insights</h4>
-			<h4>contact</h4>
+			<h4><a href="<?php echo site_url('/insight'); ?>">insights</a></h4>
+			<h4><a href="<?php echo site_url('/contact'); ?>">contact</a></h4>
 			<nav class="nav social-nav">
 				<a class="nav-link" href="#">
 					<img class="mb-4" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/insta.svg' ); ?>" alt="Instagram Logo" width="28" height="28" />

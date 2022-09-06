@@ -1,7 +1,7 @@
 <?php if ( have_rows( 'section_with_left_image' ) ) : ?>
 <div class="img-left position-relative">
 
-    <div class="container py-5 ">
+    <div id="<?php the_sub_field( 'section_id' ); ?>" class="container py-5 ">
 	<?php while ( have_rows( 'section_with_left_image' ) ) : the_row(); ?>
 		<div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 text-center">
@@ -10,7 +10,7 @@
                     <img class="img-fluid" src="<?php echo esc_url( $section_image['url'] ); ?>" alt="<?php echo esc_attr( $section_image['alt'] ); ?>" />
                 <?php endif; ?>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-end">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
           
             <div>
 

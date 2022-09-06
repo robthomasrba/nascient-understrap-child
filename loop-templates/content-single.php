@@ -9,35 +9,40 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-1"></div>
+		<div class="col-sm-12 col-md-12 col-lg-11">
+			<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-	<header class="entry-header">
+				<header class="entry-header">
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<p class="cat">
+						<?php the_category() ?>
+					</p>
 
-		<div class="entry-meta">
+					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
-			<?php understrap_posted_on(); ?>
+				</header><!-- .entry-header -->
 
-		</div><!-- .entry-meta -->
+				<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
-	</header><!-- .entry-header -->
+				<div class="entry-content">
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+					<?php
+					the_content();
+					understrap_link_pages();
+					?>
 
-	<div class="entry-content">
+				</div><!-- .entry-content -->
 
-		<?php
-		the_content();
-		understrap_link_pages();
-		?>
+				<footer class="entry-footer">
 
-	</div><!-- .entry-content -->
+					<?php understrap_entry_footer(); ?>
 
-	<footer class="entry-footer">
+				</footer><!-- .entry-footer -->
 
-		<?php understrap_entry_footer(); ?>
-
-	</footer><!-- .entry-footer -->
-
-</article><!-- #post-## -->
+			</article><!-- #post-## -->
+		</div>
+	</div>
+</div>

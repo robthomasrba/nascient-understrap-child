@@ -1,5 +1,7 @@
 <?php if ( have_rows( 'testimonial_section' ) ) : ?>
-    <div class="testimonials-holder mt-5">
+    <div class="testimonials-holder mt-5 position-relative">
+    <lottie-player class="left-anima" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/Left Pattern 2.json' ); ?>" background="transparent" speed="1" style="width: 1500px; height: 1000px;" loop autoplay></lottie-player>
+
 	<?php while ( have_rows( 'testimonial_section' ) ) : the_row(); ?>
 		<div class="container">
             <div class="row mb-4">
@@ -10,12 +12,14 @@
 
             
 		<div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-3"></div>
+            <div class="col-sm-12 col-md-12 col-lg-3 text-center quote">
+                "
+            </div>
             <div class="col-sm-12 col-md-12 col-lg-6 text-center text-white">
                 <?php if ( have_rows( 'section_testimonials' ) ) : ?>
                 <?php while ( have_rows( 'section_testimonials' ) ) : the_row(); ?>
                     <?php the_sub_field( 'testimonial_content' ); ?>
-                    <p>
+                    <p class="testimonial-name">
                         <?php the_sub_field( 'testimonial_name' ); ?>
                     </p>
                 <?php endwhile; ?>
@@ -23,7 +27,9 @@
                     <?php // No rows found ?>
                 <?php endif; ?>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-3"></div>
+            <div class="col-sm-12 col-md-12 col-lg-3 text-center quote">
+                "
+            </div>
         </div>
 		
         <div class="row">

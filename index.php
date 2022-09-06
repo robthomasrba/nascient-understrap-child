@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row mb-5">
         <div class="col-">
             <h3>
-            <lottie-player class="" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/workforce solutions icon.json' ); ?>" background="transparent" speed="1" style="width: 37.14px; height: 39.84px;" loop autoplay></lottie-player>    
+            <lottie-player class="" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/animations/Insights Icon.json' ); ?>" background="transparent" speed="1" style="width: 37.14px; height: 39.84px;" loop autoplay></lottie-player>    
             Insights
             </h3>
         </div>
@@ -40,7 +40,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
-            <h1 class="page-header-bigger">Industry leading insights backed by experience</h1>
+            <h1 class="page-header-bigger">Industry leading <span class="strike">insights</span> backed by experience</h1>
            <p>
 		   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
 		   </p>

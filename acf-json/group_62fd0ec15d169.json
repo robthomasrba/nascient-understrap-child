@@ -18,6 +18,25 @@
             "layout": "block",
             "sub_fields": [
                 {
+                    "key": "field_63167b5f7f53c",
+                    "label": "Section ID",
+                    "name": "section_id",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
                     "key": "field_62fd10aba2422",
                     "label": "Section Image",
                     "name": "section_image",
@@ -152,5 +171,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1661374126
+    "modified": 1662417781
 }

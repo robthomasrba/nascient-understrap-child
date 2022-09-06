@@ -15621,8 +15621,16 @@ a {
   text-decoration: none;
 }
 
+.quote {
+  color: #F2B200;
+  font-size: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .btn, .wpcf7 input[type=submit], .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-info a.button {
   border-radius: 0;
+  font-family: museo-sans, sans-serif;
+  font-weight: 800;
 }
 
 .btn-secondary {
@@ -15645,6 +15653,36 @@ a {
   transition: 0.5s;
 }
 
+form.fluent_form_3 .ff-btn-submit {
+  background-color: #006A3B !important;
+  color: #ffffff;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+}
+form.fluent_form_3 .ff-btn-submit:hover {
+  box-shadow: 4px 4px #F2B200;
+}
+form.fluent_form_3 .ff-btn-submit:hover:before {
+  transition: 0.5s;
+}
+
+.fluentform .ff_upload_btn.ff-btn {
+  background: #F2B200 !important;
+  color: #fff;
+  cursor: pointer;
+  display: block !important;
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: 195px;
+  text-align: center;
+}
+
+.fluentform .ff_file_upload_holder {
+  margin: 0 auto !important;
+  width: 195px;
+  display: block;
+}
+
 .home .non-img-logo {
   display: none;
 }
@@ -15652,19 +15690,19 @@ a {
   display: none;
 }
 
-.page-template-workforce-page .img-logo, .page-template-leadership-consulting-page .img-logo, .page-template-infrastructure-management-page .img-logo, .page-template-team-page .img-logo, .page-template-contact-page .img-logo, .blog .img-logo, .page-template-page-careers .img-logo {
+.page-template-workforce-page .img-logo, .page-template-leadership-consulting-page .img-logo, .page-template-infrastructure-management-page .img-logo, .page-template-team-page .img-logo, .page-template-contact-page .img-logo, .blog .img-logo, .page-template-page-careers .img-logo, .single-jobs .img-logo, .single-post .img-logo {
   display: none;
 }
-.page-template-workforce-page .top-shape, .page-template-leadership-consulting-page .top-shape, .page-template-infrastructure-management-page .top-shape, .page-template-team-page .top-shape, .page-template-contact-page .top-shape, .blog .top-shape, .page-template-page-careers .top-shape {
+.page-template-workforce-page .top-shape, .page-template-leadership-consulting-page .top-shape, .page-template-infrastructure-management-page .top-shape, .page-template-team-page .top-shape, .page-template-contact-page .top-shape, .blog .top-shape, .page-template-page-careers .top-shape, .single-jobs .top-shape, .single-post .top-shape {
   position: relative;
   padding-bottom: 27px;
 }
-.page-template-workforce-page .top-shape img, .page-template-leadership-consulting-page .top-shape img, .page-template-infrastructure-management-page .top-shape img, .page-template-team-page .top-shape img, .page-template-contact-page .top-shape img, .blog .top-shape img, .page-template-page-careers .top-shape img {
+.page-template-workforce-page .top-shape img, .page-template-leadership-consulting-page .top-shape img, .page-template-infrastructure-management-page .top-shape img, .page-template-team-page .top-shape img, .page-template-contact-page .top-shape img, .blog .top-shape img, .page-template-page-careers .top-shape img, .single-jobs .top-shape img, .single-post .top-shape img {
   position: absolute;
   top: 0;
   width: 100%;
 }
-.page-template-workforce-page .clear-nav .nav-link, .page-template-leadership-consulting-page .clear-nav .nav-link, .page-template-infrastructure-management-page .clear-nav .nav-link, .page-template-team-page .clear-nav .nav-link, .page-template-contact-page .clear-nav .nav-link, .blog .clear-nav .nav-link, .page-template-page-careers .clear-nav .nav-link {
+.page-template-workforce-page .clear-nav .nav-link, .page-template-leadership-consulting-page .clear-nav .nav-link, .page-template-infrastructure-management-page .clear-nav .nav-link, .page-template-team-page .clear-nav .nav-link, .page-template-contact-page .clear-nav .nav-link, .blog .clear-nav .nav-link, .page-template-page-careers .clear-nav .nav-link, .single-jobs .clear-nav .nav-link, .single-post .clear-nav .nav-link {
   color: #09002A;
 }
 
@@ -15693,6 +15731,87 @@ a {
   display: none;
 }
 
+.page-template-team-page .workforce {
+  display: none;
+}
+.page-template-team-page .infrastructure {
+  display: none;
+}
+.page-template-team-page .leadership {
+  display: none;
+}
+
+.page-template-contact-page .workforce {
+  display: none;
+}
+.page-template-contact-page .infrastructure {
+  display: none;
+}
+.page-template-contact-page .leadership {
+  display: none;
+}
+.page-template-contact-page .team {
+  display: none;
+}
+
+.page-template-infrastructure-management-page .workforce {
+  display: none;
+}
+.page-template-infrastructure-management-page .careers {
+  display: none;
+}
+.page-template-infrastructure-management-page .leadership {
+  display: none;
+}
+.page-template-infrastructure-management-page .team {
+  display: none;
+}
+.page-template-infrastructure-management-page .contact {
+  display: none;
+}
+
+.page-template-page-careers .workforce {
+  display: none;
+}
+.page-template-page-careers .infrastructure {
+  display: none;
+}
+.page-template-page-careers .leadership {
+  display: none;
+}
+.page-template-page-careers .team {
+  display: none;
+}
+.page-template-page-careers .contact {
+  display: none;
+}
+
+.post .post-categories {
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+.post .post-categories li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.post .post-categories li a {
+  font-size: 19px;
+  color: #12A0F3;
+  font-weight: 700;
+}
+.post h1, .post .h1 {
+  font-size: 70pxw;
+}
+.post h2, .post .h2 {
+  font-size: 40px;
+}
+.post img {
+  width: 992px;
+  height: 625px;
+  margin: 30px auto;
+}
+
 .clear-nav {
   background-color: transparent;
   z-index: 100;
@@ -15718,15 +15837,16 @@ a {
   text-align: center;
 }
 
-.custom-select {
-  border: 1px solid #FFFFFF !important;
-  font-size: 12px !important;
-  border-radius: 30px !important;
-  width: 130px !important;
-  height: 36px;
-  background-color: #F2B200 !important;
-  color: #FFFFFF !important;
-  background: #F2B200 url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'><path fill='%23ffffff' d='M2 0L0 2h4zm0 5L0 3h4z'/></svg>") right 0.75rem center/8px 10px no-repeat !important;
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  color: #F2B200;
 }
 
 .banner-h {
@@ -15805,6 +15925,69 @@ lottie-player {
 }
 .footer .social-nav .nav-link {
   margin-right: 22px;
+}
+
+.related-post {
+  padding: 120px 20px;
+  background-color: #12A0F3;
+  color: #ffffff;
+}
+.related-post h3, .related-post .h3 {
+  font-size: 24px;
+  min-height: 58px;
+}
+.related-post h3 a, .related-post .h3 a {
+  color: #ffffff;
+}
+.related-post .btn-secondary {
+  position: relative;
+}
+.related-post .btn-secondary:hover {
+  box-shadow: 4px 4px #F2B200;
+}
+.related-post .btn-secondary:hover:before {
+  transition: 0.5s;
+}
+
+@-webkit-keyframes strike {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes strike {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.strike {
+  position: relative;
+}
+
+.strike::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #F2B200;
+  -webkit-animation-name: strike;
+  animation-name: strike;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .has-blue-color,
@@ -16270,6 +16453,14 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   background-color: #006A3B;
   padding: 120px 0;
 }
+.testimonials-holder .testimonial-name {
+  font-size: 24px;
+}
+.testimonials-holder .left-anima {
+  position: absolute;
+  left: -650px;
+  top: -334px;
+}
 
 .what-we-do {
   padding: 120px 0;
@@ -16293,6 +16484,15 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .how-we-work {
   background-color: #12A0F3;
   padding: 120px 0;
+}
+.how-we-work .btn-secondary {
+  position: relative;
+}
+.how-we-work .btn-secondary:hover {
+  box-shadow: 4px 4px #F2B200;
+}
+.how-we-work .btn-secondary:hover:before {
+  transition: 0.5s;
 }
 
 .work-scroll {
@@ -16401,6 +16601,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   text-align: left;
   font-family: titillium-web, sans-serif;
   font-weight: 700;
+  padding: 20px;
 }
 .services-tabs .nav-pills .nav-link {
   color: #09002A;

@@ -12,7 +12,7 @@
                         
                         ?>
 
-                        <div class="row d-flex align-items-center mb-5">
+                        <div id="<?php the_sub_field( 'section_id' ); ?>" class="row d-flex align-items-center mb-5">
                             <div class="col-sm-12 col-md-12 col-lg-4 text-center">
                                 <?php $section_image = get_sub_field( 'section_image' ); ?>
                                 <?php if ( $section_image ) : ?>

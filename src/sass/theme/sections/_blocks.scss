@@ -116,6 +116,17 @@
 .testimonials-holder {
   background-color: $nc-green;
   padding: 120px 0;
+
+  .testimonial-name {
+    font-size: 24px;
+  }
+
+  .left-anima {
+    position: absolute;
+    left: -650px;
+    top: -334px;
+}
+
 }
 
 //What we do 
@@ -148,6 +159,20 @@
 .how-we-work {
   background-color: $nc-blue;
   padding: 120px 0;
+
+  .btn-secondary {
+    position: relative;
+
+    &:hover {
+        box-shadow: 4px 4px $nc-yellow;
+
+        &:before {
+            transition: 0.5s;
+            }
+        
+    }
+}
+
 }
 
 .work-scroll {
@@ -281,6 +306,7 @@
     text-align: left;
     font-family: titillium-web, sans-serif;
     font-weight: 700;
+    padding: 20px;
   }
   .nav-pills .nav-link {
     color: $nc-black;

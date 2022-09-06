@@ -1,9 +1,9 @@
 <?php if ( have_rows( 'section_with_right_image_alt' ) ) : ?>
-    <div class="container py-5">
+    <div id="<?php the_sub_field( 'section_id' ); ?>" class="container py-5">
 	<?php while ( have_rows( 'section_with_right_image_alt' ) ) : the_row(); ?>
 
     <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-end">
+        <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
             <div>
             
             
